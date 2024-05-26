@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.row1, .row2, .row3, .row4, .row5{
+    margin-top: 20px;
+    
+}
+button{
+    margin-right: 6px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 25px;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.input1{
+    height: 50px;
+    width: 218px;
+    color: whitesmoke;
+    font-size: 22px;
+    border: none;
+    background-color: black;
+    padding-left: 3px;
+}
+.input1:focus{
+    outline: none;
+}
+.output {
+    height: 50px;
+    width: 162px;
+    color: whitesmoke;
+    font-size: 22px;
+    border: none;
+    background-color: black;
+}
+.output:focus {
+    outline: none;
+}
+.digit, .js-clear{
+    background-color: rgb(61, 59, 59);
+    border: none;
+}
+.digit:hover{
+    background-color: hsl(0, 2%, 14%);
+}
+.operation, .equalButton{
+    background-color: rgb(255, 149, 0);
+    font-size: 20px;
+}
+.operation:hover{
+    background-color: hsl(35, 100%, 40%);
+}
